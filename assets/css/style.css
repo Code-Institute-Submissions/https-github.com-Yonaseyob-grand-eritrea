@@ -16,7 +16,7 @@ h1, h2 {
     font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #1a891a;
 }
 
 #logo {
@@ -107,7 +107,7 @@ hr {
 }
 
 .left-about-heading {
-    width: 50%;
+    width: 40%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -115,7 +115,7 @@ hr {
 }
 
 .right-about-heading {
-    width: 50%;
+    width: 40%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -123,7 +123,43 @@ hr {
 }
 
 #welcome {
-    padding-left: 520px;
-    margin: 20 0;
-    font-size: 200%;
+    padding-left: 500px;
+    margin: 5px 0;
+    font-size: 175%;
 }
+#high-light div {
+    color: blue;
+
+    width: 25%;
+    height: 250px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    font-size: 75%;
+}
+
+#beach {
+    background-image: url('../images/clean-beach.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#history {
+    background-image: url('../images/old-palace.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#cuisine {
+    background-image: url('../images/enjera.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#artdecor {
+    background-image: url('../images/asmara-teater.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
