@@ -11,34 +11,40 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
 h1, h2 {
     font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
-
 }
+
 #logo {
     float: left;
-    font-size: 300;
+    font-size: 250%;
     margin-left: 30px;
 }
+
 #menu {
-    font-size: 1305;
+    font-size: 130%;
     letter-spacing: 4px;
 }
+
 #menu, #logo {
     line-height: 100px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -62,18 +68,18 @@ h1, h2 {
 }
 
 #cover-text {
-    
+
     color: blueviolet;
-    font-size: 175%;
+    font-size: 200%;
     font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 360px;
+    width: 400px;
     height: 200px;
 
     padding-top: 50px;
     padding-left: 10px;
-    
+
     bottom: 5px;
     right: 150px;
     position: absolute;
@@ -88,16 +94,18 @@ h1, h2 {
     width: 45%;
     float: left;
 }
+
 #right-about {
     padding: 50px;
     width: 45%;
     float: right;
 }
+
 hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
+
     margin: 5px 0;
 }
+
 .left-about-heading {
     width: 50%;
     float: right;
@@ -105,9 +113,17 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading {
     width: 50%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+#welcome {
+    padding-left: 520px;
+    margin: 20 0;
+    font-size: 200%;
+}
