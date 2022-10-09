@@ -41,3 +41,16 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+#dahlak-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+#dahlak-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/dahlak-image.jpg') no-repeat center center;
+}
