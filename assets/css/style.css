@@ -41,16 +41,38 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 #dahlak-outer {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
+
+
 #dahlak-image {
     height: 500px;
     width: 100%;
     background: url('../images/dahlak-image.jpg') no-repeat center center;
 }
+
+#cover-text {
+    
+    color: blueviolet;
+    font-size: 175%;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 360px;
+    height: 200px;
+
+    padding-top: 50px;
+    padding-left: 10px;
+    
+    bottom: 5px;
+    right: 150px;
+    position: absolute;
