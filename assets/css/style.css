@@ -21,6 +21,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300;
+    margin-left: 30px;
 }
 #menu {
     font-size: 1305;
