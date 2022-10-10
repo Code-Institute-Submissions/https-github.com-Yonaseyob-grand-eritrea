@@ -123,12 +123,16 @@ hr {
 }
 
 #welcome {
-    padding-left: 500px;
-    margin: 5px 0;
+    margin: 41px 0;
     font-size: 175%;
+    text-align: center;
+}
+#video-player {
+    text-align: center;
+
 }
 #high-light {
-    height: 250px;
+    height: 200px;
     width: 100%;
     background-color: aqua;
 }
@@ -183,5 +187,14 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+#photos > img {
+    width: 100%;
 }
 
