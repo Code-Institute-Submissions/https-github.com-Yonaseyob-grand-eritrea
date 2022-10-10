@@ -62,7 +62,7 @@ h1, h2 {
 
 
 #dahlak-image {
-    height: 500px;
+    height: 500x;
     width: 100%;
     background: url('../images/dahlak-image.jpg') no-repeat center center;
 }
@@ -127,11 +127,16 @@ hr {
     margin: 5px 0;
     font-size: 175%;
 }
-#high-light div {
-    color: blue;
-
-    width: 25%;
+#high-light {
     height: 250px;
+    width: 100%;
+    background-color: aqua;
+}
+#high-light div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 25%;
+    height: 200px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
@@ -153,7 +158,7 @@ hr {
 }
 
 #cuisine {
-    background-image: url('../images/enjera.jpg');
+    background-image: url('../images/cuisine.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -161,5 +166,22 @@ hr {
     background-image: url('../images/asmara-teater.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+footer {
+    height: 150px;
+}
+.social-networks {
+    text-align: center;
+    
+}
+.social-networks > li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
