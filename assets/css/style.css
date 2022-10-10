@@ -62,14 +62,14 @@ h1, h2 {
 
 
 #dahlak-image {
-    height: 500x;
+    height: 500px;
     width: 100%;
     background: url('../images/dahlak-image.jpg') no-repeat center center;
 }
 
 #cover-text {
 
-    color: blueviolet;
+    color: green;
     font-size: 200%;
     font-family: roboto, sans-serif;
     text-transform: uppercase;
