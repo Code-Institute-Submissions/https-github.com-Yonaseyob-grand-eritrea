@@ -12,7 +12,8 @@ body {
     color: #3a3a3a;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,7 +31,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 100px;
 }
 
@@ -119,7 +121,7 @@ hr {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 59px;
 }
 
 #welcome {
@@ -127,17 +129,20 @@ hr {
     font-size: 175%;
     text-align: center;
 }
+
 #wikipedia-link {
     text-align: center;
     
-    }
+}
+
 #high-light {
     height: 200px;
     width: 100%;
     background-color: aqua;
 }
+
 #high-light div {
-    
+
     width: 25%;
     height: 200px;
     float: left;
@@ -149,13 +154,13 @@ hr {
 }
 
 
-    
+
 #beach {
-    
-        background-image: url('../images/clean-beach.jpg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        
+
+    background-image: url('../images/clean-beach.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 
 }
 
@@ -170,6 +175,7 @@ hr {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 #artdecor {
     background-image: url('../images/asmara-teater.jpg');
     background-repeat: no-repeat;
@@ -179,33 +185,40 @@ hr {
 footer {
     height: 150px;
 }
+
 .social-networks {
     text-align: center;
-    
+
 }
-.social-networks > li {
+
+.social-networks>li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 #photos {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
 }
+
 #photos > img {
     width: 100%;
 }
+
 #form {
     clear: both;
     height: 500px;
-    
+
 }
+
 .comment-form {
     font-size: large;
     position: absolute;
@@ -215,11 +228,13 @@ footer {
     border: 1px #3a3a3a solid;
     width: 50%;
     height: 400px;
-    
+
 }
+
 .comment-form h2 {
     margin: 5px 0 20px;
 }
+
 .text-input {
 
     width: 60%;
@@ -228,6 +243,7 @@ footer {
     border: 1px solid #3a3a3a;
     border-radius: 2px;
 }
+
 .textarea {
     width: 100%;
     height: 130px;
@@ -245,5 +261,72 @@ footer {
     background-color: green;
     color: #fafafa;
     display: block;
-}   
+}
 
+@media screen and (max-width: 1200px) {
+    #forecast {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+
+
+    #high-light div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0px;
+    }
+
+    #forecast {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+
+    #photo {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photo {
+        column-count: 2;
+    }
+}
