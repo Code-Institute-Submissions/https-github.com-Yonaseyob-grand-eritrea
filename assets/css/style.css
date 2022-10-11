@@ -155,13 +155,21 @@ iframe {
     font-size: 75%;
 }
 
-
+#high-light > *
+ h2{
+    padding: 20px;
+    background: #ffffffba;
+    width: fit-content;
+    margin: 10px auto;
+    color: black;
+}
 
 #beach {
 
     background-image: url('../images/clean-beach.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 
 
 }
@@ -169,19 +177,22 @@ iframe {
 #history {
     background-image: url('../images/old-palace.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 #cuisine {
     background-image: url('../images/cuisine.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 #artdecor {
     background-image: url('../images/asmara-teater.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
@@ -218,7 +229,7 @@ footer {
 #form {
     clear: both;
     height: 500px;
-    background-color: aquamarine;
+    background-color: rgb(10 9 66 / 8%);
 
 }
 
@@ -232,6 +243,8 @@ footer {
     height: 430px;
 
 }
+
+
 
 .comment-form h2 {
     margin: 5px 0 20px;
@@ -260,7 +273,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: green;
+    background-color: #1a5589;
     color: #fafafa;
     display: block;
 }
@@ -302,7 +315,7 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 5px;
+        margin-left: 15px;
         margin-bottom: 15px;
         line-height: 15px;
     }
@@ -322,13 +335,13 @@ footer {
     }
 
 
-    #photo {
+    #photos {
         column-count: 2;
     }
 }
 
 @media screen and (max-width: 800px) {
-    #photo {
-        column-count: 2;
+    #photos {
+        column-count: 1;
     }
 }
