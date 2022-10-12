@@ -1,4 +1,5 @@
 Grand Eritrea is a web site to give some information for those who enjoy traveling, love experiencing new cultures, and have an interest in history.
+![view](https://user-images.githubusercontent.com/112119971/195341085-5c3c81ab-4988-4c51-a8ba-63f8c213b755.PNG)
 
 Features
 
