@@ -64,7 +64,7 @@ No errors were found when passing through the official (Jigsaw) validator
 
 
 Unfixed Bugs
-there are no unfixed bugs/could not find any bugs excepet warnings
+there are no unfixed bugs/could not find any bugs excepet warnings which I could not find enough time to fix. 
 
 Deployment
 
