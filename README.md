@@ -59,9 +59,12 @@ No errors were returned when passing through the official W3C validator
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
+![lighthouse](https://user-images.githubusercontent.com/112119971/195335376-18a9cdd9-99b8-4a92-889f-f581597e3f72.PNG)
+![w3c](https://user-images.githubusercontent.com/112119971/195335432-aa84008f-77f0-4901-8f8f-e6ff488c72fb.PNG)
+
 
 Unfixed Bugs
-there are no unfixed bugs
+there are no unfixed bugs/could not find any bugs excepet warnings
 
 Deployment
 
